@@ -138,7 +138,7 @@ console.log('API funcionando!');
 function execSQLQuery(sqlQry, res, id) {
     const connection = mysql.createConnection({
         host: 'logicargo_db.mysql.dbaas.com.br',
-        port: '',
+        port: '3306',
         user: 'logicargo_db',
         password: 'logicargo@2018',
         database: 'logicargo_db'
